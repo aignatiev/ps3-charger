@@ -20,6 +20,8 @@ Last change was an update from ATtiny to ATmega simply because I had them in sto
 
 A ready made PCB is available on EasyEDA:
 
-link
+https://oshwlab.com/bramfeld/ps3-charger
 
 However programming it requires a custom pogo-connector and calibration of the internal RC oscillator to 12MHz. This can be done by enabling CLKO functionality and connecting a frequency counter to the CLKO pin (PB0).
+
+This code was only tested with an ATmega328pb, but it should work with any ATmegax8 microcontroller. No fuse changes are required.
